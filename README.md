@@ -30,6 +30,12 @@
 
 ![basics](https://github.com/leoneckert/facemash-workshop/blob/master/screenshots/basics2.png)
 
+**facemash**
+
+	$ python facemash.py data/students
+
+![basics](https://github.com/leoneckert/facemash-workshop/blob/master/screenshots/facemash.png)
+
 ##Setting up a (virtual) working environment
 
 **[1] Navigate to a directory in which you wanna start the project.**
