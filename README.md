@@ -22,12 +22,17 @@ This should be installed on your machine bby default, run `python --version` to 
 #####Homebrew ([more info](http://brew.sh))
 
 Check if you have it with `which brew`, this should return a path.   
-If it doesn't, install it by running `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`, you will need to enter your password for this.
+If it doesn't, install it by running 
+
+		/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+you will need to enter your password for this.
 
 #####pip
 
 Check with `which pip`. 
-Install it by running `sudo easy_install pip`.
+Install it by running 
+
+		sudo easy_install pip
 
 #####virtualenv (recommended)
 
