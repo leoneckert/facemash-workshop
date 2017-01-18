@@ -54,7 +54,7 @@ will return
 
 Those are the files we are looking for, the location of them can differ. Once found, while still in the virtual environment, we copy them with
 
-	cp /usr/local/lib/python2.7/site-packages/cv* $VIRTUAL_ENV/lib/python2.7/site-packages/
+	$ cp /usr/local/lib/python2.7/site-packages/cv* $VIRTUAL_ENV/lib/python2.7/site-packages/
 
 	
 I found this trick [here](https://medium.com/@manuganji/installation-of-opencv-numpy-scipy-inside-a-virtualenv-bf4d82220313#.i235dr6wb).
@@ -72,6 +72,10 @@ OpenCV should now work! To test open the interactive python interpreter with `$ 
 With boost and cmake installed (in the installation guide below), this should be easy:
 
 	$ pip install dlib
+	
+**[6] Download a facial-landmarks-prediction model**
+
+Download the file you find at [https://github.com/biometrics/openbr-models/blob/master/dlib/shape_predictor_68_face_landmarks.dat](https://github.com/biometrics/openbr-models/blob/master/dlib/shape_predictor_68_face_landmarks.dat) and just put it into your project folder.
 	
 ---
 
@@ -110,7 +114,7 @@ This should be installed on your machine bby default, run `$ python --version` t
 Check if you have it with `$ which brew`, this should return a path.   
 If it doesn't, install it by running 
 
-	$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+	$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 you will need to enter your password for this.
 
 #####pip
@@ -132,8 +136,8 @@ Check by starting the interactive python interpreter, enter `$ python`, the comm
 
 	$ brew tap homebrew/science
 	$ brew install opencv
-	
-If above test returns a different error `[...] ImportError: numpy.core.multiarray failed to import [...]`, that's fine (we'll fix that within the virtual environent later on).
+
+Above test might still return the same error or a different one `[...] ImportError: numpy.core.multiarray failed to import [...]`, but, trust me, DON'T WORRY (we'll fix that within the virtual environent later on).
 
 #####Boost ([more info](http://www.boost.org))
 
