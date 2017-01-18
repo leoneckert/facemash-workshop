@@ -16,6 +16,13 @@
 * [Setting up a (virtual) working environment](https://github.com/leoneckert/facemash-workshop#setting-up-a-virtual-working-environment)
 * [Installation guide for basic requirements](https://github.com/leoneckert/facemash-workshop#installation-guide-for-basic-requirements) (Beginners start here!)
 
+##Using Facemash
+
+**basics.py**
+
+	$ python basics.py
+
+![basics](https://github.com/leoneckert/facemash-workshop/blob/master/screenshots/basics.png)
 
 ##Setting up a (virtual) working environment
 
