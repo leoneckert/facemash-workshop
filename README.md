@@ -32,6 +32,7 @@ Install it by running `sudo easy_install pip`.
 #####virtualenv (recommended)
 
 Check with `which virtualenv`. Install it by running 
+		
 		pip install virtualenv
 
 #####OpenCV ([more info](http://opencv.org))
