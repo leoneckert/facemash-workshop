@@ -12,17 +12,23 @@
 
 ##Content
 
-* Using Facemash
+* [Using Facemash](https://github.com/leoneckert/facemash-workshop#using-facemash)
 * [Setting up a (virtual) working environment](https://github.com/leoneckert/facemash-workshop#setting-up-a-virtual-working-environment)
 * [Installation guide for basic requirements](https://github.com/leoneckert/facemash-workshop#installation-guide-for-basic-requirements) (Beginners start here!)
 
 ##Using Facemash
 
-**basics.py**
+**basics 1**
 
-	$ python basics.py
+	$ python basics1.py data/face1.jpg
 
-![basics](https://github.com/leoneckert/facemash-workshop/blob/master/screenshots/basics.png)
+![basics](https://github.com/leoneckert/facemash-workshop/blob/master/screenshots/basics1.png)
+
+**basics 2**
+
+	$ python basics2.py data/face1.jpg data/face2.jpg
+
+![basics](https://github.com/leoneckert/facemash-workshop/blob/master/screenshots/basics2.png)
 
 ##Setting up a (virtual) working environment
 
@@ -83,10 +89,16 @@ With boost and cmake installed (in the installation guide below), this should be
 **[6] Download a facial-landmarks-prediction model**
 
 Download the file you find at [https://github.com/biometrics/openbr-models/blob/master/dlib/shape_predictor_68_face_landmarks.dat](https://github.com/biometrics/openbr-models/blob/master/dlib/shape_predictor_68_face_landmarks.dat) and just put it into your project folder.
+
+**[7] Get some datasets of faces**
+
+Store in data/[name of dataset].
+
+For itp, I supply a set of current students' faces.
 	
 ---
 
-This should be it! Now get coding on the project, or use the finished pieces in this repo!
+This should be it! Now get coding on the project, or [use the finished pieces in this repo](https://github.com/leoneckert/facemash-workshop#using-facemash)!
 
 ---
 
