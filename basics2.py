@@ -16,7 +16,6 @@ def get_rects(img):
     print "[+] Number of faces found:", len(rects)
     return rects
 
-# https://matthewearl.github.io/2015/07/28/switching-eds-with-python/
 def get_landmarks(img, rect):
     return np.matrix([[p.x, p.y] for p in predictor(img, rect).parts()])
 
