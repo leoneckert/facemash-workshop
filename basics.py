@@ -1,7 +1,9 @@
 ### ------
 ### open a image:
 import cv2
-path = "data/face.jpg"
+import sys
+# path = "data/face.jpg"
+path = sys.argv[1]
 img = cv2.imread(path)
 print "[+] Opened image from:", path
 cv2.imshow("face", img)
@@ -38,7 +40,6 @@ landmarks = np.matrix([[p.x, p.y] for p in predictor(img, rects[0]).parts()])
 img_with_landmarks = img.copy()
 for idx, point in enumerate(landmarks):
     pos = (point[0, 0], point[0, 1])
-    print pos
     cv2.circle(img_with_landmarks,pos, 1, (0,0,255), -1)
 cv2.imshow("aaron with landmarks", img_with_landmarks)
 cv2.waitKey(0)
