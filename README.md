@@ -13,7 +13,7 @@
 ##Content
 
 * Using Facemash
-* Setting up a (virtual) working environment
+* [Setting up a (virtual) working environment](https://github.com/leoneckert/facemash-workshop#setting-up-a-virtual-working-environment)
 * [Installation guide for basic requirements](https://github.com/leoneckert/facemash-workshop#installation-guide-for-basic-requirements) (Beginners start here!)
 
 
@@ -64,6 +64,20 @@ I found this trick [here](https://medium.com/@manuganji/installation-of-opencv-n
 Any python module we install with pip, will be installed INTO the virtual enviromnent. OpenCV requires the following
 
 	$ pip install numpy scipy
+	
+OpenCV should now work! To test open the interactive python interpreter with `$ python`, and enter `import cv2`. No error message should appear. Yes? Great!
+
+[6] Install dlib
+
+With boost and cmake installed (in the installation guide below), this should be easy:
+
+	$ pip install dlib
+	
+---
+
+This should be it! Now get coding on the project, or use the finished pieces in this repo!
+
+---
 
 
 
@@ -149,7 +163,7 @@ Check with `$ which cmake`. Install it by running
 
 ---
 
-**... Now we should be all set to set up our virtual environment!!!**
+**... Now we should be all set to [set up our virtual environment](https://github.com/leoneckert/facemash-workshop#setting-up-a-virtual-working-environment)!!!**
 
 ---
 
