@@ -2,7 +2,7 @@
 
 **A workshop introducing computer vision tools in python.** A python program that goes through photos in a directory, detects faces in them, warps (scale and alignement) them and overlays them to create the average face of the dataset.
 
-##Starting Remarks
+## Starting Remarks
 
 **No existing python knowledge is required.**
 
@@ -10,13 +10,13 @@
 
 **Other dependencies:** opencv, dli, virtualenv (optional). An [installation guide is below](https://github.com/leoneckert/facemash-workshop#installation-guide-for-basic-requirements).  
 
-##Content
+## Content
 
 * [Using Facemash](https://github.com/leoneckert/facemash-workshop#using-facemash)
 * [Setting up a (virtual) working environment](https://github.com/leoneckert/facemash-workshop#setting-up-a-virtual-working-environment)
 * [Installation guide for basic requirements](https://github.com/leoneckert/facemash-workshop#installation-guide-for-basic-requirements) (Beginners start here!)
 
-##Using Facemash
+## Using Facemash
 
 **basics 1**
 
@@ -36,7 +36,10 @@
 
 ![basics](https://github.com/leoneckert/facemash-workshop/blob/master/screenshots/facemash.png)
 
-##Setting up a (virtual) working environment
+
+
+
+# Setting up a (virtual) working environment
 
 **[1] Navigate to a directory in which you wanna start the project.**
 
@@ -124,17 +127,17 @@ This should be it! Now get coding on the project, or [use the finished pieces in
 
 
 
-##Installation guide for basic requirements
+## Installation guide for basic requirements
 
 The following has only been tested on OSX. It looks like a lot, but the good news is, it has always worked super smoothly when I tried it!
 
 Enter all commands without the `$` symbol :-)
 
-#####Python
+##### Python
 
 This should be installed on your machine bby default, run `$ python --version` to make sure. If you actually run into issues with this, [this](http://docs.python-guide.org/en/latest/starting/install/osx/) should help (chances are, you'll install python with brew (see below) if you actually don't have it yet).
 
-#####Homebrew ([more info](http://brew.sh))
+##### Homebrew ([more info](http://brew.sh))
 
 Check if you have it with `$ which brew`, this should return a path.   
 If it doesn't, install it by running 
@@ -142,20 +145,20 @@ If it doesn't, install it by running
 	$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 you will need to enter your password for this.
 
-#####pip
+##### pip
 
 Check with `$ which pip`. 
 Install it by running 
 
 	$ sudo easy_install pip
 
-#####virtualenv (recommended)
+##### virtualenv (recommended)
 
 Check with `$ which virtualenv`. Install it by running 
 		
 	$ pip install virtualenv
 
-#####OpenCV ([more info](http://opencv.org))
+##### OpenCV ([more info](http://opencv.org))
 
 Check by starting the interactive python interpreter, enter `$ python`, the command line prompt will change to `>>>`, now enter `import cv2`. If nothing happens, great! Something like `[...] ImportError: No module named cv2 [...] ` means you need to install OpenCV by entering the following commands:
 
@@ -164,7 +167,7 @@ Check by starting the interactive python interpreter, enter `$ python`, the comm
 
 Above test might still return the same error or a different one `[...] ImportError: numpy.core.multiarray failed to import [...]`, but, trust me, DON'T WORRY (we'll fix that within the virtual environent later on).
 
-#####Boost ([more info](http://www.boost.org))
+##### Boost ([more info](http://www.boost.org))
 
 This, we need to install dlib in our virtual environent later on. Install entering the following commands:
 
@@ -184,7 +187,7 @@ which should return
 
 The steps to install boost are descript in more detail [here](http://www.pyimagesearch.com/2015/04/27/installing-boost-and-boost-python-on-osx-with-homebrew/).
 
-#####cmake
+##### cmake
 
 Check with `$ which cmake`. Install it by running 
 		
