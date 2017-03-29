@@ -2,7 +2,7 @@
 
 **A workshop introducing computer vision tools in python.** A python program that goes through photos in a directory, detects faces in them, warps (scale and alignement) them and overlays them to create the average face of the dataset.
 
-##Starting Remarks
+## Starting Remarks
 
 **No existing python knowledge is required.**
 
@@ -10,13 +10,13 @@
 
 **Other dependencies:** opencv, dli, virtualenv (optional). An [installation guide is below](https://github.com/leoneckert/facemash-workshop#installation-guide-for-basic-requirements).  
 
-##Content
+## Content
 
 * [Using Facemash](https://github.com/leoneckert/facemash-workshop#using-facemash)
 * [Setting up a (virtual) working environment](https://github.com/leoneckert/facemash-workshop#setting-up-a-virtual-working-environment)
 * [Installation guide for basic requirements](https://github.com/leoneckert/facemash-workshop#installation-guide-for-basic-requirements) (Beginners start here!)
 
-##Using Facemash
+## Using Facemash
 
 **basics 1**
 
@@ -36,7 +36,10 @@
 
 ![basics](https://github.com/leoneckert/facemash-workshop/blob/master/screenshots/facemash.png)
 
-##Setting up a (virtual) working environment
+
+
+
+# Setting up a (virtual) working environment
 
 **[1] Navigate to a directory in which you wanna start the project.**
 
